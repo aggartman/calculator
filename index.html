@@ -13,7 +13,10 @@
 <body>
     <div class="about">
         <h1 class="title">Retro Calculator</h1>
-        <p class="usertxt">Here is a simple calculator for you to use.</p>
+        <p class="usertxt">Here is a simple calculator for you to use.<br>
+            Please put equations in one at a time and in Operational Order.<br>
+        </p>
+        <p class="copyright">Developed by Austin Gartman</p>
     </div>
     <div class="calculator">
         <h3 class="calcTitle">Calc-3000</h3>
@@ -23,22 +26,22 @@
             <button type='button' id='c'>c</button>
             <button type='button' id='ce'>ce</button>
             <button type='button' id='percent'>%</button>
-            <button type='button' id='divide'>/</button>
+            <button type='button' class="operator" id='divide'>/</button>
             <button type='button' class='nums' id='7'>7</button>
             <button type='button' class='nums' id='8'>8</button>
             <button type='button' class='nums' id='9'>9</button>
-            <button type='button' id='multiply'>*</button>
+            <button type='button' class="operator" id='multiply'>*</button>
             <button type='button' class='nums' id='4'>4</button>
             <button type='button' class='nums' id='5'>5</button>
             <button type='button' class='nums' id='6'>6</button>
-            <button type='button' id='minus'>-</button>
+            <button type='button' class="operator" id='minus'>-</button>
             <button type='button' class='nums' id='1'>1</button>
             <button type='button' class='nums' id='2'>2</button>
             <button type='button' class='nums' id='3'>3</button>
-            <button type='button' id='plus'>+</button>
+            <button type='button' class="operator" id='plus'>+</button>
             <button type='button' class='nums' id='0'>0</button>
             <button type='button' id='decimal'>.</button>
-            <button type='button' id='equals'>=</button>
+            <button type='button' class="equal" id='equals'>=</button>
         </div>
     </div>
     <script src="script/main.js" defer></script>
